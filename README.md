@@ -66,12 +66,12 @@ Only the JumpBox machine can accept connections from the Internet.
 *Access to this machine is only allowed from the following IP addresses:*
 - _24.224.22.181_
 
-Machines within the network can only be accessed by *JumpBox.*
+Machines within the network can only be accessed by JumpBox.
 
-- *Which machine did you allow to access your ELK VM?* 
+*Which machine did you allow to access your ELK VM?* 
 
 - _My IP Address & JumpBox_
 
--* What was its IP address?*
+*What was its IP address?*
 
--_24.224.22.181 & 10.0.0.4_
+- _24.224.22.181 & 10.0.0.4_
