@@ -38,7 +38,7 @@ Load balancing ensures that the application will be highly efficient, in additio
 - Load balancing lets you evenly distribute network traffic to prevent failure caused by overloading a particular resource. This strategy improves the performance and availability of applications, websites, databases, and other computing resources. It also helps process user requests quickly and accurately.
 
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
+###Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
 
 *What does Filebeat watch for?*
 
@@ -48,7 +48,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 - Metricbeat helps you monitor your servers by collecting metrics from the system and services running on the server.
 
-The configuration details of each machine may be found below.
+###The configuration details of each machine may be found below.
 
 | Name       | Function                                                                | IP Address | Operating System |
 |---------------|-----------------------------------------------------------------|-----------------|------------------|
