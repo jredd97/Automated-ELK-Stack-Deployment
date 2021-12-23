@@ -39,6 +39,7 @@ Load balancing ensures that the application will be highly efficient, in additio
 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
+
 *What does Filebeat watch for?*
 
 - Installed as an agent on your servers, Filebeat monitors the log files or locations that you specify, collects log events, and forwards them.
