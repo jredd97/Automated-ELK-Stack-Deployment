@@ -103,7 +103,7 @@ The playbook implements the following tasks:
 - Start & launch a docker container-elk
 
 
-The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+**The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.**
 
 ![Elk-Docker ps](Linux/elk_docker_ps.png)
 
