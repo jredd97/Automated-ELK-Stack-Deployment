@@ -92,7 +92,9 @@ _What is the main advantage of automating configuration with Ansible?_
 * This allows you to deploy to multiple servers using a single playbook.*
 
 The playbook implements the following tasks:
+
 _In 3-5 bullets, explain the steps of the ELK installation play.._
+
 Install docker.io
 Install docker pip3
 Install docker container
@@ -103,4 +105,4 @@ Start & launch a docker container-elk
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![Docker PS](Images/)
+![Elk-Docker ps](Linux/elk_docker_ps.png)
