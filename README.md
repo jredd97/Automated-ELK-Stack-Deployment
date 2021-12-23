@@ -133,4 +133,4 @@ In order to use the playbook, you will need to have an Ansible control node alre
 - filebeat-playbook.yml
 
 *Where do you copy it?*
-:arrow_forward: /etc/ansible/files/
+-:arrow_forward: /etc/ansible/files/
