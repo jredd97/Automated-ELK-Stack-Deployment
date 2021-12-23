@@ -112,5 +112,7 @@ The playbook implements the following tasks:
 - Web-1 10.0.0.5 & Web-2 10.0.0.6
 
 *We have installed the following Beats on these machines:*
-- `filebeat` collects linux logs. This allows us to track things like user logon events, failed access attempts, service starts and stops. 
-- `metricbeat` collects system metrics from the web servers. We look for things like cpu usage, memory usage, drive space usage and drive space available for each host.
+- `filebeat` is configured to track events from network devices in the syslog and authorization logs for successful / unsuccessful login attempts. 
+- `metricbeat` collects system metrics from the web servers, like cpu usage, memory usage, drive space usage and drive space available for each host.
+
+
