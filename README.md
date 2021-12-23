@@ -1,15 +1,12 @@
 # Automated-ELK-Stack-Deployment
 The files in this repository were used to configure the network depicted below.
-## Automated ELK Stack Deployment
-
-The files in this repository were used to configure the network depicted below.
 
 ![Network Diagram](Diagrams/redteam_diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
-! [ansible.cfg] (https://github.com/jredd97/Automated-ELK-Stack-Deployment/blob/main/Ansible/ansible.cfg)
-! [hosts] (https://github.com/jredd97/Automated-ELK-Stack-Deployment/blob/main/Ansible/hosts)
+![ansible.cfg](Ansible/ansible.cfg)
+![hosts](Ansible/hosts)
 ! [install-elk.yml] (https://github.com/jredd97/Automated-ELK-Stack-Deployment/blob/main/Ansible/install-elk.yml)
 ! [filebeat-config.yml] (https://github.com/jredd97/Automated-ELK-Stack-Deployment/blob/main/Ansible/filebeat-config.yml)
 ! [filebeat-playbook.yml] (https://github.com/jredd97/Automated-ELK-Stack-Deployment/blob/main/Ansible/filebeat-playbook.yml)
