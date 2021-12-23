@@ -75,3 +75,12 @@ Machines within the network can only be accessed by JumpBox.
 *What was its IP address?*
 
 - _24.224.22.181 & 10.0.0.4_
+
+A summary of the access policies in place can be found in the table below.
+
+| Name     | Publicly Accessible | Allowed IP Addresses |
+|----------|------------------------------|----------------------|
+| Jump Box | Yes                       | 24.224.22.181  |
+|  Web-1      | No                        | VM Net             |
+|   Web-2     | No                        |  VM Net            |
+| Elk-Server | Yes                      | 10.0.0.4 24.224.22.181|
