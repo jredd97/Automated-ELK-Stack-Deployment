@@ -126,3 +126,11 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
   - 10.1.0.10 ansible_python_interpreter=/usr/bin/python3
 - Run the playbook, and navigate to **http://52.161.73.96:5601/app/kibana#/home** to check that the installation worked as expected.
+
+#### Answer the following questions to fill in the blanks
+
+*Which file is the playbook?* 
+- filebeat-playbook.yml
+
+*Where do you copy it?*
+- /etc/ansible/files/
