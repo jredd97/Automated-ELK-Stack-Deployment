@@ -84,3 +84,23 @@ A summary of the access policies in place can be found in the table below.
 |  Web-1      | No                        | VM Net             |
 |   Web-2     | No                        |  VM Net            |
 | Elk-Server | Yes                      | Home IP 10.0.0.4|
+
+### Elk Configuration
+
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
+_What is the main advantage of automating configuration with Ansible?_
+* This allows you to deploy to multiple servers using a single playbook.*
+
+The playbook implements the following tasks:
+_In 3-5 bullets, explain the steps of the ELK installation play.._
+Install docker.io
+Install docker pip3
+Install docker container
+Increase virtual memory
+Start & launch a docker container-elk
+
+
+
+The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+
+![Docker PS](Images/)
