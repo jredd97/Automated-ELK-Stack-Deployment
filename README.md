@@ -24,7 +24,6 @@ This document contains the following details:
 
 
 ### Description of the Topology
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
@@ -62,12 +61,12 @@ Load balancing ensures that the application will be highly efficient, in additio
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the JumpBox machine can accept connections from the Internet. 
+Only the **JumpBox** machine can accept connections from the Internet. 
 
 *Access to this machine is only allowed from the following IP addresses:*
-- Home IP
+- Home IP Adress
 
-Machines within the network can only be accessed by JumpBox.
+Machines within the network can only be accessed by **JumpBox**.
 
 *Which machine did you allow to access your ELK VM?* 
 
@@ -120,7 +119,7 @@ The playbook implements the following tasks:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 *SSH into the control node and follow the steps below:*
-- Copy the **filebeat** file to **/etc/ansible/files/filebeat-config.yml**.
+- Copy the **filebeat** file to **/etc/ansible/filebeat-config.yml**.
 - Update the **/etc/ansible/hosts** file to include.
 
   - [elk]
@@ -134,4 +133,13 @@ In order to use the playbook, you will need to have an Ansible control node alre
 - filebeat-playbook.yml
 
 *Where do you copy it?*
-- /etc/ansible/files/
+- /etc/ansible/
+
+*Which file do you update to make Ansible run the playbook on a specific machine?*
+- Ansible host file at /etc/ansible/hosts.
+
+*How do I specify which machine to install the ELK server on versus which to install Filebeat on?*
+- You identify each machines in the 'hosts' file by their group and IP address.
+- 
+
+ 
