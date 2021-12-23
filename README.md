@@ -115,4 +115,12 @@ The playbook implements the following tasks:
 - `filebeat` is configured to track events from network devices in the syslog and authorization logs for successful / unsuccessful login attempts. 
 - `metricbeat` collects system metrics from the web servers, like cpu usage, memory usage, drive space usage and drive space available for each host.
 
+### Using the Playbook
+In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
+SSH into the control node and follow the steps below:
+- Copy the ‘filebeat’ file to ‘/etc/ansible/files/filebeat-config.yml’.
+- Update the ‘/etc/ansible/hosts’’ file to include.
+- ‘[elk]’
+	-10.0.0.10 ansible_python_interpreter=/usr/bin/python3
+- Run the playbook, and navigate to ‘http://52.161.73.96:5601/app/kibana#/home’ to check that the installation worked as expected.
