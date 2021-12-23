@@ -4,17 +4,17 @@ The files in this repository were used to configure the network depicted below.
 
 The files in this repository were used to configure the network depicted below.
 
-![Network Diagram] (https://github.com/jredd97/Automated-ELK-Stack-Deployment/tree/main/Diagrams/redteam_diagram.png “Red Team Network Diagram”)
+! [Network Diagram] (https://github.com/jredd97/Automated-ELK-Stack-Deployment/tree/main/Diagrams/redteam_diagram.png “Red Team Network Diagram”)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
-![ansible.cfg] (https://github.com/jredd97/Automated-ELK-Stack-Deployment/blob/main/Ansible/ansible.cfg)
-![hosts] (https://github.com/jredd97/Automated-ELK-Stack-Deployment/blob/main/Ansible/hosts)
-![install-elk.yml] (https://github.com/jredd97/Automated-ELK-Stack-Deployment/blob/main/Ansible/install-elk.yml)
-![filebeat-config.yml] (https://github.com/jredd97/Automated-ELK-Stack-Deployment/blob/main/Ansible/filebeat-config.yml)
-![filebeat-playbook.yml] (https://github.com/jredd97/Automated-ELK-Stack-Deployment/blob/main/Ansible/filebeat-playbook.yml)
-![metricbeat-config.yml] (https://github.com/jredd97/Automated-ELK-Stack-Deployment/blob/main/Ansible/metricbeat-config.yml)
-![metricbeat-playbook.yml] (https://github.com/jredd97/Automated-ELK-Stack-Deployment/blob/main/Ansible/metricbeat-playbook.yml)
+! [ansible.cfg] (https://github.com/jredd97/Automated-ELK-Stack-Deployment/blob/main/Ansible/ansible.cfg)
+! [hosts] (https://github.com/jredd97/Automated-ELK-Stack-Deployment/blob/main/Ansible/hosts)
+! [install-elk.yml] (https://github.com/jredd97/Automated-ELK-Stack-Deployment/blob/main/Ansible/install-elk.yml)
+! [filebeat-config.yml] (https://github.com/jredd97/Automated-ELK-Stack-Deployment/blob/main/Ansible/filebeat-config.yml)
+! [filebeat-playbook.yml] (https://github.com/jredd97/Automated-ELK-Stack-Deployment/blob/main/Ansible/filebeat-playbook.yml)
+! [metricbeat-config.yml] (https://github.com/jredd97/Automated-ELK-Stack-Deployment/blob/main/Ansible/metricbeat-config.yml)
+! [metricbeat-playbook.yml] (https://github.com/jredd97/Automated-ELK-Stack-Deployment/blob/main/Ansible/metricbeat-playbook.yml)
 
 
 This document contains the following details:
@@ -53,4 +53,3 @@ The configuration details of each machine may be found below.
 | Web-1       | Host for container running DVWA                        | 10.0.0.5      | Linux Ubuntu Pro 18.04 |
 | Web-2       | Host for container running DVWA                         |  10.0.0.6    | Linux Ubuntu Pro 18.04 |
 | Elk-Server | Monitoring and log aggregation for DVWA hosts  |10.1.0.10    | Linux Ubuntu Pro 18.04 |
-
