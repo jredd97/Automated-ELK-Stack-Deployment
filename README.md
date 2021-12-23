@@ -29,7 +29,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly efficient, in addition to restricting in-bound access to the network.
 
-What aspect of security do load balancers protect?
+*What aspect of security do load balancers protect?*
 
 - Load Balancing plays an important security role as computing moves evermore to the cloud. The off-loading function of a load balancer defends an organization against distributed denial-of-service (DDoS) attacks. It does this by shifting attack traffic from the corporate server to a public cloud provider.
 
@@ -39,11 +39,13 @@ What aspect of security do load balancers protect?
 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
-What does Filebeat watch for?
-Installed as an agent on your servers, Filebeat monitors the log files or locations that you specify, collects log events, and forwards them.
+*What does Filebeat watch for?*
+
+- Installed as an agent on your servers, Filebeat monitors the log files or locations that you specify, collects log events, and forwards them.
 	
-What does Metricbeat record?
-Metricbeat helps you monitor your servers by collecting metrics from the system and services running on the server.
+*What does Metricbeat record?*
+
+- Metricbeat helps you monitor your servers by collecting metrics from the system and services running on the server.
 
 The configuration details of each machine may be found below.
 
