@@ -56,3 +56,22 @@ Load balancing ensures that the application will be highly efficient, in additio
 | Web-1       | Host for container running DVWA                        | 10.0.0.5      | Linux Ubuntu Pro 18.04 |
 | Web-2       | Host for container running DVWA                         |  10.0.0.6    | Linux Ubuntu Pro 18.04 |
 | Elk-Server | Monitoring and log aggregation for DVWA hosts  |10.1.0.10    | Linux Ubuntu Pro 18.04 |
+
+### Access Policies
+
+The machines on the internal network are not exposed to the public Internet. 
+
+Only the JumpBox machine can accept connections from the Internet. 
+
+*Access to this machine is only allowed from the following IP addresses:*
+- _24.224.22.181_
+
+Machines within the network can only be accessed by *JumpBox.*
+
+- *Which machine did you allow to access your ELK VM?* 
+
+- _My IP Address & JumpBox_
+
+-* What was its IP address?*
+
+-_24.224.22.181 & 10.0.0.4_
