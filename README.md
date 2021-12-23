@@ -24,6 +24,7 @@ This document contains the following details:
 
 
 ### Description of the Topology
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
@@ -133,4 +134,4 @@ In order to use the playbook, you will need to have an Ansible control node alre
 - filebeat-playbook.yml
 
 *Where do you copy it?*
--:arrow_forward: /etc/ansible/files/
+- /etc/ansible/files/
