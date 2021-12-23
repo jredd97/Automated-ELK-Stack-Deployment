@@ -40,7 +40,7 @@ Load balancing ensures that the application will be highly efficient, in additio
 
 **Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.**
 
-*_What does Filebeat watch for?_*
+*What does Filebeat watch for?*
 
 - Installed as an agent on your servers, Filebeat monitors the log files or locations that you specify, collects log events, and forwards them.
 	
@@ -64,19 +64,19 @@ The machines on the internal network are not exposed to the public Internet.
 Only the JumpBox machine can accept connections from the Internet. 
 
 *Access to this machine is only allowed from the following IP addresses:*
-- _Home IP_
+- Home IP
 
 Machines within the network can only be accessed by JumpBox.
 
 *Which machine did you allow to access your ELK VM?* 
 
-- _My IP Address & JumpBox_
+- My IP Address & JumpBox
 
 *What was its IP address?*
 
-- _Home IP & 10.0.0.4_
+- Home IP & 10.0.0.4
 
-A summary of the access policies in place can be found in the table below.
+### A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|------------------------------|----------------------|
@@ -88,18 +88,19 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
+
 _What is the main advantage of automating configuration with Ansible?_
-* This allows you to deploy to multiple servers using a single playbook.*
+- This allows you to deploy to multiple servers using a single playbook.
 
 The playbook implements the following tasks:
 
-_In 3-5 bullets, explain the steps of the ELK installation play.._
+*In 3-5 bullets, explain the steps of the ELK installation play..*
 
-- *Install docker.io*
-- *Install docker pip3*
-- *Install docker container*
-- *Increase virtual memory*
-- *Start & launch a docker container-elk*
+- Install docker.io
+- Install docker pip3
+- Install docker container
+- Increase virtual memory
+- Start & launch a docker container-elk
 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
