@@ -83,7 +83,7 @@ Machines within the network can only be accessed by **JumpBox**.
 | Jump Box | Yes                       | Home IP  |
 |  Web-1      | No                        | VM Net             |
 |   Web-2     | No                        |  VM Net            |
-| Elk-Server | Yes                      | Home IP 10.0.0.4|
+| Elk-Server | Yes                      | Home IP / 10.0.0.4|
 
 ### Elk Configuration
 
