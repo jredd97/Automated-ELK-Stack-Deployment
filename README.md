@@ -140,7 +140,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 *How do I specify which machine to install the ELK server on versus which to install Filebeat on?*
 - You identify each machines in the 'hosts' file by their group and IP address.
-- You update the 'filebeat-config.yml' to install to IP 10.1.0.4 (Elk-Server).
+- You update the 'filebeat-config.yml' to install to IP 10.1.0.10 (Elk-Server).
 
 *Which URL do you navigate to in order to check that the ELK server is running?*
 - **http://52.161.73.96:5601/app/kibana#/home**
